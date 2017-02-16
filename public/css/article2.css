@@ -1,0 +1,1967 @@
+.ui_title {
+    height: 35px;
+    border-bottom: 1px solid #eee;
+    position: relative
+}
+
+.ui_title_wrap {
+    line-height: 30px;
+    font-size: 20px
+}
+
+.ui_title_wrap h1, .ui_title_wrap h2, .ui_title_wrap h3 {
+    float: left;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #666;
+    padding-bottom: 4px;
+    outline: 0;
+    color: #333;
+    max-width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ui_title_wrap h1 a, .ui_title_wrap h2 a, .ui_title_wrap h3 a {
+    color: #666
+}
+
+.ui_title_wrap h1.on, .ui_title_wrap h2.on, .ui_title_wrap h3.on {
+    color: #ff6767;
+    border-bottom: 3px solid #ff6767
+}
+
+.ui_title_wrap h1.on a, .ui_title_wrap h2.on a, .ui_title_wrap h3.on a {
+    color: #ff6767
+}
+
+.ui_title_wrap a.on {
+    color: #ff6767
+}
+
+.ui_title_wrap a {
+    text-decoration: none
+}
+
+.ui_title_wrap .right {
+    float: right;
+    margin: 0 0 0 20px;
+    font-size: 16px
+}
+
+.ui_list_1 li:hover {
+    background-color: #f7f7f7
+}
+
+.ui_list_1 li {
+    padding: 10px 0;
+    overflow: hidden;
+    vertical-align: top;
+    zoom: 1
+}
+
+.ui_list_1 .pic {
+    float: left;
+    width: 110px;
+    height: 75px
+}
+
+.ui_list_1 .detail {
+    color: #999;
+    padding-left: 120px
+}
+
+.ui_list_1 h4 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 5px
+}
+
+.ui_list_1 h4 a, .ui_list_1 h4 a:hover {
+    color: #333
+}
+
+.ui_list_1 .subcontent {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #666
+}
+
+.ui_list_1 .subcontent a, .ui_list_1 .subcontent a:hover {
+    color: #666
+}
+
+.ui_list_1 .substatus {
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding-top: 1px
+}
+
+.ui_list_1 .substatus p {
+    margin-left: -10px;
+    font-size: 0
+}
+
+.ui_list_1 .substatus .right span {
+    padding: 0 5px
+}
+
+.ui_list_1 a, .ui_list_1 a:hover {
+    color: #999
+}
+
+.ui_list_1 .subcontent, .ui_list_1 h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ui_list_1 .substatus .left {
+    font-size: 0
+}
+
+.ui_list_1 .substatus .left a, .ui_list_1 .substatus .left span {
+    margin-right: 10px;
+    zoom: 1;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top
+}
+
+.ui_list_1 .substatus .right {
+    display: none;
+    padding-right: 10px
+}
+
+.ui_list_1 li:hover .substatus .right {
+    display: block
+}
+
+.ui_list_1 .substatus .right, .ui_list_1 .substatus .right a {
+    color: #6599ff
+}
+
+.ui_list_1 .subline a {
+    padding-right: 5px
+}
+
+.ui_list_1 .substatusLine a {
+    border: 1px dashed #eee;
+    background-color: #fff;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px
+}
+
+.ui_list_1 .substatusLine a.on, .ui_list_1 .substatusLine a:hover {
+    color: #ba2020
+}
+
+.pages {
+    clear: both;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666
+}
+
+.pages a, .pages font {
+    font-size: 16px
+}
+
+.ui_list_2 {
+    text-align: center;
+    overflow: hidden
+}
+
+.ui_list_2 a {
+    color: #666
+}
+
+.ui_list_2 a {
+    text-decoration: none
+}
+
+.ui_list_2 ul {
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 -55px -26px 0
+}
+
+.ui_list_2 li {
+    float: left;
+    width: 120px;
+    margin: 0 26px 26px 0;
+    vertical-align: top
+}
+
+.ui_list_2 .subline {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 3px;
+    text-align: center
+}
+
+.ui_list_2 .substatus a {
+    display: block;
+    margin: 3px auto 0;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    height: 16px;
+    line-height: 16px;
+    width: 48px
+}
+
+.ui_list_2 .substatus a.on, .ui_list_2 .substatus a:hover {
+    text-decoration: none;
+    background-color: #f3f3f3
+}
+
+.ui_list_2 .substatus a.on {
+    cursor: default
+}
+
+.ui_list_2 .substatus a.on .icon1 {
+    display: none
+}
+
+.ui_list_2 .substatus .icon1 {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 4px 1px 0 7px
+}
+
+.ui_list_2 span {
+    color: #9a9a9a
+}
+
+.ui_list_2_48 li {
+    width: 60px;
+    margin-right: 10px
+}
+
+.ui_list_2_48 .imgLoad {
+    background-image: url(http://static.meishichina.com/v6/img/loading-16-16.gif)
+}
+
+.ui_list_2_48 img {
+    margin-left: 6px
+}
+
+.ui_list_2_48 .substatus {
+    line-height: 22px
+}
+
+h6.space_autoTitle {
+    overflow: hidden;
+    height: 20px;
+    padding-bottom: 10px
+}
+
+h6.space_autoTitle span.ui_list2_title {
+    float: left;
+    padding-right: 10px;
+    background: #fff
+}
+
+h6.space_autoTitle span.ui_list2_title i {
+    color: #999
+}
+
+h6.space_autoTitle span.ul_list2_line {
+    display: block;
+    height: 10px;
+    border-bottom: #e6e6e6 dotted 1px
+}
+
+h6.space_autoTitle a.more {
+    float: right;
+    padding-left: 10px;
+    background: #fff;
+    color: #519af6
+}
+
+h6.space_autoTitle a.more:hover {
+    text-decoration: none
+}
+
+.ui_list_3 li {
+    border-bottom: 1px dotted #e6e6e6;
+    padding: 10px 0;
+    overflow: hidden;
+    vertical-align: top
+}
+
+.ui_list_3 li:hover {
+    background-color: #f7f7f7
+}
+
+.ui_list_3 .subcontent a {
+    font-size: 14px
+}
+
+.ui_list_3 .substatus {
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden
+}
+
+.ui_list_3 .substatus .left {
+    font-size: 0
+}
+
+.ui_list_3 .substatus .left a, .ui_list_3 .substatus .left span {
+    margin-right: 10px;
+    zoom: 1;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    color: #999
+}
+
+.ui_list_3 .substatus .left .author {
+    margin-right: 4px
+}
+
+.ui_list_3 .substatus .right {
+    display: none;
+    padding-right: 10px
+}
+
+.ui_list_3 li:hover .substatus .right {
+    display: block
+}
+
+.ui_list_3 .substatus .right, .ui_list_3 .substatus .right a {
+    color: #6599ff
+}
+
+.ui_list_3 .pic {
+    padding: 6px 0;
+    overflow: hidden;
+    zoom: 1
+}
+
+.ui_list_3 .pic a {
+    position: relative;
+    float: left
+}
+
+.ui_list_3 .pic span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    padding: 0 6px;
+    background-color: rgba(0, 0, 0, .5);
+    background-color: #000 \9;
+    filter: alpha(opacity=50) \9;
+    line-height: 20px
+}
+
+.ui_list_3 .pic i {
+    position: relative \9;
+    display: block;
+    color: #fff
+}
+
+.ui_list_4 li:hover {
+    background-color: #f7f7f7
+}
+
+.ui_list_4 li {
+    border-bottom: 1px dotted #e6e6e6;
+    zoom: 1;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 0;
+    vertical-align: top
+}
+
+.ui_list_4 .tools {
+    float: left;
+    width: 30px
+}
+
+.ui_list_4 .subline {
+    line-height: 20px;
+    height: 20px;
+    padding-top: 5px;
+    overflow: hidden
+}
+
+.ui_list_4 .subcontent, .ui_list_4 h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666
+}
+
+.ui_list_4 ul a {
+    color: #6599ff;
+    padding: 0 5px
+}
+
+.ui_list_4 a.author {
+    padding-left: 0
+}
+
+.ui_list_4 .time {
+    color: #999;
+    float: left
+}
+
+.ui_list_4 .subtime {
+    float: left;
+    color: #999
+}
+
+.ui_list_4 .delete {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    float: right
+}
+
+.ui_list_4 li:hover .delete {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+.ui_list_4 .subreply {
+    color: #aeaeae;
+    font-size: 12px;
+    line-height: 20px;
+    border-top: 1px solid #f3f3f3;
+    padding-top: 10px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 100px
+}
+
+.ui_list_4 .arrow {
+    border-bottom: 5px solid #f3f3f3;
+    position: absolute;
+    top: -11px;
+    left: 68px
+}
+
+.ui_list_4 b.arrow {
+    border-bottom-color: #fff;
+    top: -10px
+}
+
+.ui_list_4 li:hover b.arrow {
+    border-bottom-color: #f7f7f7
+}
+
+.ui_list_4 .ui-checkbox-for {
+    margin-top: 6px
+}
+
+.ui_list_4_all .ui-checkbox-for {
+    margin-top: 5px
+}
+
+.ui_list_4 .detail {
+    padding-left: 30px
+}
+
+.ui_list_4 .subreply {
+    color: #aeaeae;
+    font-size: 12px;
+    line-height: 20px;
+    border-top: 1px solid #f3f3f3;
+    padding-top: 10px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 40px
+}
+
+.ui_list_4 .subreply a {
+    color: #aeaeae
+}
+
+.ui_list_4 .arrow {
+    border-bottom: 5px solid #f3f3f3;
+    position: absolute;
+    top: -11px;
+    left: 38px
+}
+
+.ui_list_4 b.arrow {
+    border-bottom-color: #fff;
+    top: -10px
+}
+
+.ui_list_4 li:hover b.arrow {
+    border-bottom-color: #f7f7f7
+}
+
+.ui_list_5 a {
+    color: #6599ff
+}
+
+.ui_list_5 li {
+    border-bottom: 1px dotted #e6e6e6;
+    zoom: 1;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 0
+}
+
+.ui_list_5 li:hover {
+    background-color: #f7f7f7
+}
+
+.ui_list_5 .subtitle, .ui_list_5 h4, .ui_list_5 h4 a {
+    color: #666
+}
+
+.ui_list_5 h4 {
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px
+}
+
+.ui_list_5 .subtitle {
+    padding-right: 120px;
+    font-size: 14px
+}
+
+.ui_list_5 .subtime {
+    color: #9a9a9a;
+    width: 110px;
+    float: right;
+    text-align: right
+}
+
+.ui_list_5 .subcontent {
+    padding-top: 5px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.ui_list_5 .detail p {
+    color: #858585;
+    font-size: 12px;
+    line-height: 22px
+}
+
+.ui_list_5 .img_120 .pic {
+    width: 120px
+}
+
+.ui_list_5 .img_120 .detail {
+    padding-left: 140px
+}
+
+.ui_list_5 .img_64 .pic {
+    width: 64px
+}
+
+.ui_list_5 .img_64 .detail {
+    padding-left: 84px
+}
+
+.ui_list_5 .pic {
+    float: left
+}
+
+.ui_list_5 .pic img {
+    background: url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center
+}
+
+.ui_list_5 .pic a {
+    position: relative;
+    display: block
+}
+
+.ui_list_5 .pic span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    padding: 0 6px;
+    background-color: rgba(0, 0, 0, .5);
+    background-color: #000 \9;
+    filter: alpha(opacity=50) \9;
+    line-height: 20px
+}
+
+.ui_list_5 .pic i {
+    position: relative \9;
+    display: block;
+    color: #fff
+}
+
+.ui_list_5 .subreply {
+    color: #aeaeae;
+    font-size: 12px;
+    line-height: 20px;
+    border-top: 1px solid #f3f3f3;
+    padding-top: 10px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 40px
+}
+
+.ui_list_5 .arrow {
+    border-bottom: 5px solid #f3f3f3;
+    position: absolute;
+    top: -11px;
+    left: 38px
+}
+
+.ui_list_5 b.arrow {
+    border-bottom-color: #fff;
+    top: -10px
+}
+
+.ui_list_5 li:hover b.arrow {
+    border-bottom-color: #f7f7f7
+}
+
+.ui_list_6 li:hover {
+    background-color: #f7f7f7
+}
+
+.ui_list_6 li {
+    padding: 5px 0;
+    overflow: hidden;
+    vertical-align: top;
+    zoom: 1
+}
+
+.ui_list_6 .detail {
+    color: #999
+}
+
+.ui_list_6 h4 {
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 65%
+}
+
+.ui_list_1 h4 a:hover, .ui_list_6 h4 a {
+    color: #333
+}
+
+.ui_list_6 .subline {
+    float: right;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 34%;
+    text-align: right
+}
+
+.ui_list_6 .subline a {
+    padding-right: 5px
+}
+
+.ui_list_1 a:hover, .ui_list_6 a {
+    color: #999
+}
+
+.ui_subsort {
+    font-size: 0
+}
+
+.ui_subsort a {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #999;
+    outline: 0
+}
+
+.ui_subsort a.on, .ui_subsort a:hover {
+    color: #ba2020
+}
+
+.down_app {
+    background-color: #f6f6f6;
+    padding: 10px
+}
+
+.down_app .pic {
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    background: url(http://static.meishichina.com/v6/img/temp/icate_70_70.jpg) no-repeat center #fff;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.space_left {
+    width: 650px;
+    float: left
+}
+
+.space_right {
+    width: 300px;
+    float: right
+}
+
+.like_goods .pic {
+    width: 80px;
+    height: 60px
+}
+
+.like_goods .detail {
+    padding-left: 90px
+}
+
+.like_goods .imgLoad {
+    background-image: url(http://static.meishichina.com/v6/img/loading-16-16.gif)
+}
+
+.like_goods h4 {
+    padding: 5px 0
+}
+
+.like_goods h4 a {
+    color: #666;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.like_goods_u .pic {
+    width: 80px;
+    height: 80px
+}
+
+.like_goods_u .detail {
+    padding-left: 90px
+}
+
+.like_goods_u .imgLoad {
+    background-image: url(http://static.meishichina.com/v6/img/loading-16-16.gif)
+}
+
+.like_goods_u h4 {
+    padding: 5px 0
+}
+
+.like_goods_u h4 a {
+    color: #666;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.category_title {
+    font-size: 20px;
+    color: #ba2020
+}
+
+.category_sub {
+    width: 100%;
+    overflow: hidden
+}
+
+.category_sub2 {
+    border-top: 1px solid #EAEAEA;
+    margin-left: -1px
+}
+
+.category_sub a {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 30px;
+    width: 99px;
+    border-left: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none
+}
+
+.category_sub a:hover {
+    background: #F8F8F8
+}
+
+.link_cube_1 a {
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 0 0;
+    padding: 0 15px;
+    color: #333;
+    background: #f3f3f3;
+    text-decoration: none
+}
+
+.link_cube_1 a:hover {
+    color: #999
+}
+
+.link_cube_2 a {
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 20px 0 0;
+    color: #333;
+    text-decoration: none
+}
+
+.link_cube_2 a:hover {
+    color: #999;
+    text-decoration: underline
+}
+
+.ui_btn_blue, .ui_btn_blue:hover {
+    background-color: transparent;
+    border-radius: 0;
+    color: #519af6;
+    padding: 0
+}
+
+.main {
+    width: 640px
+}
+
+#path, #path2 {
+    clear: both;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0 10px
+}
+
+#path a, #path2 a {
+    color: #666
+}
+
+#path ins {
+    float: right;
+    text-decoration: none
+}
+
+.main h1 {
+    clear: both;
+    font-size: 32px;
+    margin: 0;
+    padding: 10px 0
+}
+
+#arInfo {
+    color: #999;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #eee
+}
+
+#arInfo2 {
+    border-top: 1px solid #eee;
+    height: 1px
+}
+
+.i2z {
+    clear: both;
+    padding: 0 0 10px 0;
+    text-align: left
+}
+
+.i2r {
+    float: right;
+    padding: 0 0 15px 10px;
+    width: 336px
+}
+
+.content {
+    width: 640px;
+    font-size: 16px;
+    line-height: 180%;
+    padding: 20px 0 10px 0
+}
+
+.content h2, .content h3 {
+    font-size: 16px
+}
+
+.content h4, .content h5 {
+    font-size: 16px
+}
+
+.content h2, .content h3, .content h4, .content h5, .content p {
+    margin-bottom: 1em;
+    text-indent: 28px
+}
+
+.content li {
+    margin-bottom: .5em;
+    text-indent: 28px;
+    list-style: disc inside none
+}
+
+.content big {
+    float: left;
+    display: block;
+    font-size: 2.8em;
+    line-height: 120%
+}
+
+.content a:link, .content a:visited {
+    color: #c00;
+    padding: 0
+}
+
+.content a:active, .content a:hover {
+    color: red;
+    padding: 0
+}
+
+.content fieldset {
+    clear: both;
+    padding: 5px 10px 10px 10px;
+    margin: 0 28px 14px 28px;
+    border: 1px solid #ccc
+}
+
+.content legend {
+    font-size: 14px;
+    padding: 1px 5px 0 10px;
+    color: #f30;
+    font-weight: 700;
+    background: url(http://static.meishichina.com/v4/bg.gif) no-repeat -978px -462px
+}
+
+.content fieldset ol, .content fieldset ul {
+    padding: 0 7px
+}
+
+.content fieldset li {
+    float: left;
+    width: 260px;
+    margin-bottom: 0;
+    text-indent: 0;
+    color: #444;
+    line-height: 200%;
+    list-style: none outside none
+}
+
+.content .field3 li {
+    float: left;
+    width: 172px;
+    margin-bottom: 0;
+    text-indent: 0;
+    color: #444;
+    line-height: 200%;
+    list-style: none outside none
+}
+
+.content fieldset ol li {
+    float: left;
+    width: 260px;
+    margin-bottom: 0;
+    text-indent: 0;
+    color: #444;
+    line-height: 200%;
+    list-style: decimal inside none
+}
+
+.content fieldset li a:link, .content fieldset li a:visited {
+    color: #03f;
+    text-decoration: underline
+}
+
+.content fieldset li a:active, .content fieldset li a:hover {
+    color: #c00
+}
+
+.content b font {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    padding: 0 3px
+}
+
+.content b a:link, .content b a:visited {
+    font-size: 16px;
+    color: #c00;
+    text-decoration: none;
+    padding: 0 3px
+}
+
+.content b a:active, .content b a:hover {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 3px;
+    background: #f30
+}
+
+.content img {
+    margin-bottom: 2px
+}
+
+.content a:link img, .content a:visited img {
+    padding: 1px;
+    border: 1px solid #fff;
+    background: #fff
+}
+
+.content a:active img, .content a:hover img {
+    padding: 1px;
+    border: 1px solid #f60;
+    background: #fff
+}
+
+.content .imgL {
+    float: left;
+    padding: 0 10px 5px 28px
+}
+
+.content .imgR {
+    float: left;
+    padding: 0 0 5px 10px
+}
+
+.content .pl {
+    clear: both
+}
+
+.content .pl li {
+    float: left;
+    height: 270px;
+    margin-bottom: 0;
+    text-indent: 0;
+    list-style: none outside none;
+    text-align: center;
+    padding: 0 28px;
+    width: 157px
+}
+
+#VoteBox {
+    clear: both;
+    float: left;
+    padding: 0 28px;
+    width: 584px
+}
+
+#VoteBox h4 {
+    font-size: 16px;
+    text-indent: 0;
+    margin: 0
+}
+
+#VoteBox p {
+    text-indent: 0;
+    margin: 6px 0 0 0
+}
+
+#VoteBox input {
+    margin: 3px 0;
+    vertical-align: middle
+}
+
+#VoteBox a:active img, #VoteBox a:hover img, #VoteBox a:link img, #VoteBox a:visited img {
+    padding: 0;
+    border: none
+}
+
+.content #blogger {
+    float: left;
+    width: 294px;
+    font-size: 12px;
+    line-height: 160%;
+    text-indent: 0;
+    height: 80px
+}
+
+#bf {
+    float: left;
+    width: 75px;
+    text-align: left
+}
+
+#bf2 {
+    float: left;
+    width: 63px;
+    text-align: left
+}
+
+.content #blogger h6 {
+    float: left;
+    width: 219px;
+    font-size: 14px;
+    padding-bottom: 6px
+}
+
+#bc {
+    float: left;
+    width: 219px;
+    color: #333
+}
+
+#bc2 {
+    float: left;
+    width: 231px;
+    color: #333
+}
+
+.content #blogger a:link, .content #blogger a:visited {
+    color: #0042DA;
+    text-decoration: underline;
+    padding: 0
+}
+
+.content #blogger a:active, .content #blogger a:hover {
+    color: #c00;
+    text-decoration: underline;
+    padding: 0;
+    background: 0 0
+}
+
+.content #blogger a:link img, .content #blogger a:visited img {
+    border: 1px solid #FFB482;
+    margin-bottom: 1px
+}
+
+.content #blogger a:active img, .content #blogger a:hover img {
+    border: 1px solid #f60;
+    margin-bottom: 1px
+}
+
+.content #blogger h6 a {
+    font-size: 14px
+}
+
+.content #blogger h6 small {
+    padding-left: 5px
+}
+
+.content #blogger h6 small a {
+    font-size: 11px;
+    font-weight: 400
+}
+
+.mList2, .mList3 {
+    clear: both;
+    float: left;
+    width: 650px;
+    font-size: 14px;
+    padding: 5px 0
+}
+
+.mList2 li {
+    float: left;
+    width: 320px
+}
+
+.mList3 li {
+    float: left;
+    width: 213px
+}
+
+.sBox, .sCase {
+    clear: both;
+    float: left;
+    width: 300px;
+    color: #888;
+    line-height: 24px;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec
+}
+
+.sPic {
+    clear: both;
+    float: left;
+    width: 300px;
+    padding: 5px 0 0 0;
+    border-bottom: 1px dotted #c9c9c9
+}
+
+.sPic .pic_art, .sPic li {
+    float: left;
+    width: 150px;
+    padding: 0 0 5px 0;
+    text-align: center
+}
+
+.sList, .sList1, .sList3, .sListText {
+    clear: both;
+    float: left;
+    width: 300px;
+    padding: 5px 0
+}
+
+.sList li {
+    float: left;
+    width: 150px;
+    text-indent: 10px;
+    list-style: disc inside none;
+    color: #9a9a9a
+}
+
+.sList2 {
+    overflow: hidden;
+    width: 100%
+}
+
+.sList2 ul {
+    padding: 10px 0 0 0
+}
+
+.sList2 li {
+    float: left;
+    width: 48%;
+    padding: 0 2% 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 180%
+}
+
+.sList4 {
+    overflow: hidden;
+    width: 100%
+}
+
+.sList4 ul {
+    padding: 10px 0 0 0
+}
+
+.sList4 li {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 180%
+}
+
+.sPic2List6 {
+    overflow: hidden;
+    width: 100%
+}
+
+.sPic2List6 .Pic {
+    float: left;
+    width: 46.5%
+}
+
+.sPic2List6 .Pic a {
+    display: block;
+    margin: 10px 10px 0 0
+}
+
+.sPic2List6 ul {
+    float: left;
+    width: 50%;
+    padding: 5px 0 0
+}
+
+.sPic2List6 li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 240%
+}
+
+.sPic2 {
+    overflow: hidden;
+    width: 100%
+}
+
+.sPic2 ul {
+    display: block;
+    width: 320px
+}
+
+.sPic2 ul li {
+    width: 140px;
+    margin: 20px 20px 0 0;
+    float: left
+}
+
+#dz {
+    color: #999;
+    font-size: 12px
+}
+
+#dz a {
+    color: #999
+}
+
+.goindex {
+    text-align: center;
+    padding: 24px 0
+}
+
+.goindex a {
+    display: inline-block;
+    color: #fff;
+    background: #f60;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 8px 36px;
+    border-radius: 5px
+}
+
+.nav_wrap #eatmenu a {
+    padding: 0 16px
+}
+
+.health_h {
+    height: 300px;
+    overflow: hidden
+}
+
+.health_h .w1_2 {
+    float: left;
+    width: 500px;
+    height: 300px;
+    background: #999;
+    overflow: hidden
+}
+
+.health_h .w1_3 {
+    width: 470px;
+    height: 300px;
+    overflow: hidden;
+    float: right
+}
+
+.health_h .w1_3_1 {
+    height: 184px;
+    overflow: hidden
+}
+
+.health_h .w1_3_1 h2, .w1_3_1 h2 a {
+    color: #ba2020;
+    font-size: 20px
+}
+
+.health_h .w1_3_1 h2 {
+    line-height: 1.1em;
+    padding: 0 0 10px 0
+}
+
+.health_h .w1_3_1 p {
+    color: #666;
+    padding: 0 0 15px 0;
+    line-height: 180%
+}
+
+.health_h .w1_3_2 {
+    height: 84px;
+    overflow: hidden
+}
+
+.health_h .w1_3_2 {
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    padding: 15px 0;
+    font-size: 14px
+}
+
+.health_h .w1_3_2 p {
+    line-height: 200%
+}
+
+.health_h .w1_3_2 span, .w1_3_2 span a {
+    color: #333
+}
+
+.health_h .w1_3_2 span a:hover {
+    color: #ba2020
+}
+
+.health_h .w1_3_2 a {
+    color: #555;
+    margin: 0 10px 0 0
+}
+
+.health_h .w1_3_2 a:hover {
+    color: #ba2020
+}
+
+.health_h .w1_3_2 b {
+    margin: 0 10px 0 0;
+    color: #e8e8e8
+}
+
+.a_main_recipe {
+    margin: 20px 0 0 0
+}
+
+.a_main_recipe > div {
+    float: left;
+    padding: 0 0 15px;
+    width: 16.66%;
+    font-size: 14px;
+    color: #ccc
+}
+
+.a_main_recipe > div h5 {
+    font-size: 14px;
+    color: #ba2020;
+    padding: 0 0 5px 0
+}
+
+.recipeH5line3 h5 {
+    color: #ba2020;
+    font-size: 14px
+}
+
+.recipeH5line3 li {
+    width: 33.3%;
+    float: left;
+    font-size: 14px
+}
+
+a:focus {
+    outline: 0
+}
+
+.w {
+    overflow: hidden
+}
+
+.ui_nav_box .ui_title_wrap a.on {
+    color: #ba2020
+}
+
+.ui_nav_box .ui_title, .ui_nav_box .ui_title_wrap a.on, .ui_nav_box .ui_title_wrap a:hover, .ui_nav_box .ui_title_wrap h1, .ui_nav_box .ui_title_wrap h2, .ui_nav_box .ui_title_wrap h3 {
+    border-bottom-width: 2px
+}
+
+.ui_title_wrap h1 a, .ui_title_wrap h2 a, .ui_title_wrap h3 a {
+    text-decoration: none
+}
+
+.space_left {
+    width: 640px;
+    float: left;
+    overflow: hidden
+}
+
+.space_right {
+    width: 300px;
+    float: right;
+    overflow: hidden
+}
+
+.ui_no_data {
+    font-size: 20px;
+    padding: 100px 0 0 0;
+    text-align: center;
+    color: #999
+}
+
+.ui_no_data a, .ui_no_data a:hover {
+    color: #6599ff;
+    padding: 5px
+}
+
+.ui-loading {
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden
+}
+
+.ui-loading a {
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff6767;
+    background-color: #f3f3f3;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    -moz-transition: all .3s ease-in-out .3s;
+    -o-transition: all .3s ease-in-out .3s;
+    -ms-transition: all .3s ease-in-out .3s;
+    transition: all .3s ease-in-out .3s
+}
+
+.ui-loading a:hover {
+    background-color: #ff8d8d;
+    color: #fff;
+    text-decoration: none
+}
+
+.ui-loading a.on {
+    cursor: default;
+    background: url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center center #f9f9f9;
+    text-indent: -9999em
+}
+
+li.feed {
+    display: none
+}
+
+.cms_index_slider {
+    position: relative;
+    height: 225px;
+    width: 990px;
+    overflow: hidden
+}
+
+#cms_index_slider {
+    height: 225px;
+    overflow: hidden;
+    position: relative;
+    width: 1035px
+}
+
+#cms_index_slider ul {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+
+#cms_index_slider li {
+    display: block;
+    height: 225px;
+    overflow: hidden;
+    position: relative;
+    width: 345px;
+    margin: 0 0;
+    float: left;
+    padding: 0
+}
+
+#cms_index_slider li a {
+    width: 300px;
+    height: 225px;
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    overflow: hidden
+}
+
+#cms_index_slider li a i {
+    display: block;
+    height: 225px;
+    overflow: hidden;
+    width: 300px
+}
+
+#cms_index_slider li a img {
+    height: 225px;
+    width: 300px;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+#cms_index_slider li a:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1)
+}
+
+#cms_index_slider li a .os {
+    width: 300px;
+    height: 225px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    filter: alpha(opacity=20);
+    -moz-opacity: .2;
+    -khtml-opacity: .2;
+    opacity: .2
+}
+
+#cms_index_slider li a h4 {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    font-size: 16px;
+    line-height: 120%;
+    display: block;
+    width: 270px;
+    padding: 0 15px;
+    text-align: center;
+    z-index: 2
+}
+
+.cms_index_slider .nextBtn, .cms_index_slider .prevBtn {
+    z-index: 3;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    background-color: #000;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    overflow: hidden;
+    text-indent: -9999em;
+    top: 87px;
+    left: 0;
+    cursor: pointer
+}
+
+.cms_index_slider .nextBtn:hover, .cms_index_slider .prevBtn:hover {
+    text-decoration: none;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+.cms_index_slider .nextBtn i, .cms_index_slider .prevBtn i {
+    display: block;
+    background: url(http://static.meishichina.com/v6/img/lookImg/arrow.png) no-repeat;
+    width: 18px;
+    height: 35px;
+    margin: 7px 0 0 11px
+}
+
+.cms_index_slider .nextBtn {
+    left: auto;
+    right: 0
+}
+
+.cms_index_slider .nextBtn i {
+    background-position: -18px 0
+}
+
+.cms_index_slider .controls {
+    display: none
+}
+
+#navlist .navlist_a {
+    padding: 0 10px;
+    color: #333
+}
+
+#navlist .on {
+    color: #ff6767
+}
+
+#navlist .navlist_a b, #navlist .navlist_a i {
+    position: absolute;
+    top: 15px;
+    right: 6px;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-top: 6px solid #333
+}
+
+#navlist .navlist_a b {
+    top: 13px;
+    border-top: 6px solid #fff
+}
+
+#navlist .on i {
+    border-top: 6px solid #ff6767
+}
+
+#navlist_sub {
+    background: #fff;
+    width: 990px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: 50;
+    box-shadow: 0 2px 3px #ddd;
+    display: none;
+    overflow: hidden
+}
+
+#navlist_sub div {
+    float: left;
+    width: 15%;
+    margin: 0 .8%;
+    padding: 0 0 10px
+}
+
+#navlist_sub h4 {
+    padding: 15px 0 0 0;
+    width: 100%;
+    font-weight: 700;
+    clear: both
+}
+
+#navlist_sub ul {
+    float: left;
+    margin: 0 0 10px
+}
+
+#navlist_sub li {
+    line-height: 160%;
+    width: 47%;
+    padding: 0
+}
+
+#navlist_sub li a {
+    color: #333;
+    font-size: 12px;
+    line-height: 28px;
+    height: 28px
+}
+
+#navlist_sub li a:hover {
+    text-decoration: none;
+    color: #ff6767
+}
+
+#zhen_info {
+    margin: 20px 0 0;
+    height: 41px
+}
+
+#zhen_title_wrap {
+    background: #fff;
+    padding: 0 0 5px;
+    width: 640px
+}
+
+.zhen_info {
+    padding: 15px 0 0;
+    color: #666;
+    font-size: 14px
+}
+
+.cms_list li {
+    padding: 0 0 20px 0;
+    clear: both
+}
+
+.cms_list li h4 {
+    font-size: 22px;
+    padding: 3px 0
+}
+
+.cms_list .pic {
+    float: left;
+    height: 120px;
+    width: 160px;
+    margin: 20px 0 0;
+    overflow: hidden
+}
+
+.cms_list .detail {
+    color: #666;
+    padding: 16px 0 0 180px
+}
+
+.cms_list .substatus {
+    font-size: 12px;
+    color: #999
+}
+
+.cms_list .subcontent {
+    font-size: 14px;
+    color: #666
+}
+
+.cms_list li img {
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.cms_list li:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1)
+}
+
+.cms_list li.nopic .pic {
+    display: none
+}
+
+.cms_list li.nopic .detail {
+    padding: 16px 0 0 0
+}
+
+#cms_list_living ul {
+    display: none
+}
+
+#cms_list_living ul.on {
+    display: block
+}
+
+.cms_category {
+    width: 1040px
+}
+
+.cms_category li {
+    width: 500px;
+    overflow: hidden;
+    float: left;
+    margin: 0 20px 40px 0
+}
+
+.cms_category li a.t1 img {
+    margin: 0 0 5px 0
+}
+
+.cms_category li a.t1 {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 30px 10px 0;
+    width: 220px;
+    height: 213px;
+    line-height: 120%;
+    overflow: hidden
+}
+
+.cms_category li p {
+    font-size: 16px;
+    line-height: 170%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #666;
+    padding: 0 30px 0 0;
+    clear: both
+}
+
+.cms_category li p a {
+    color: #666
+}
+
+.cms_category h2 {
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0 30px 0 0
+}
+
+.cms_category h2 a {
+    float: left;
+    text-decoration: none;
+    border-bottom: 1px solid #ba2020
+}
+
+.cms_r_list li {
+    padding: 15px 0 0;
+    clear: both
+}
+
+.cms_r_list li .pic {
+    float: left
+}
+
+.cms_r_list li p {
+    padding: 0 0 0 90px
+}
+
+.cms_r_list li p a {
+    font-size: 14px;
+    line-height: 1.2em
+}
+
+.cms_r_list li p span {
+    color: #999
+}
+
+.cms_r_list li img.imgLoad {
+    background: #f2f2f2 url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat scroll center center;
+    display: block;
+    height: 60px;
+    width: 80px
+}
+
+.msc_w5 {
+    overflow: hidden;
+    margin-top: 15px;
+    width: 650px
+}
+
+.msc_w5 li {
+    float: left;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 120px
+}
+
+.msc_w5 li a {
+    display: block;
+    text-decoration: none
+}
+
+.msc_w5 li a img {
+    width: 120px;
+    height: 90px
+}
+
+.msc_w5 li a span {
+    display: block;
+    font-size: 14px;
+    height: 36px;
+    line-height: 120%;
+    overflow: hidden;
+    padding: 5px 0 0;
+    text-align: center;
+    width: 120px
+}
+
+.msc_w5 li a:hover span {
+    background: #e9e9e9;
+    text-decoration: none
+}
+
+.eat_indexlist {
+    width: 100%
+}
+
+.eat_indexlist li {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 170px;
+    overflow: hidden
+}
+
+.eat_indexlist li img {
+    width: 120px;
+    height: 120px;
+    margin: auto
+}
+
+.eat_indexlist li p {
+    font-size: 16px;
+    padding: 5px;
+    line-height: 120%
+}
